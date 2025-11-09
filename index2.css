@@ -1,0 +1,14 @@
+.grid-container{display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr; /* 1 fr 1fr 1fr 1fr , it acts as a ratio*, if it is like: 80px 1fr 20%, and height is given 200px, then th e80px one remains contant. then 20% of 200=(), then remaining is the value of 1fr*/
+height: 400px;
+width: 400px;
+grid-template-rows:1fr 1fr 1fr 1fr;
+gap: 10px;
+}
+.grid-item-e{grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start: 3;}
+
+
+.grid-item{background-color: blue;
+width:40px;height: 40px;}
